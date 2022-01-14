@@ -21,6 +21,9 @@ body {
 .padding-60{
   padding: 40px 0 60px 0;
 }
+.pb-40{
+  padding-bottom: 40px;
+}
 .mr-25{
   margin-right: 27px;
 }
@@ -123,7 +126,7 @@ main {
   grid-template-rows: repeat(7, auto);
   border: 1px solid #000;
 }
-#banner,#testimonial{
+#banner,#testimonial,#exprience{
   background-color: #FFF7F4;
 
 
@@ -183,6 +186,37 @@ main {
 .fa-external-link-square-alt{
   background-color: var(--black);
   box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+}
+.e-left p{
+  padding: 20px 20px 20px 0;
+  color: var(--gray);
+}
+.e-right-single{
+  padding: 70px;
+  background: var(--white);
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.e-right-single:nth-child(1){
+  margin: 10px 10px 20px 0;
+}
+.e-right-single:nth-child(2){
+  margin: 20px 10px 0px 10px;
+}
+.e-right-single:nth-child(3){
+  margin: 0px 10px 20px 0;
+}
+.e-right-single:nth-child(4){
+  margin: 20px 10px 0px 10px;
+}
+.e-right-single span{
+  font-weight: 700;
+  color: var(--black);
+  font-size: calc(40px + 1vmin);
+  padding-bottom: 18px;
+}
+.e-right-single p{
+  color: var(--gray);
+
 }
 #team-member h2,#testimonial h2,#blog h2{
   text-align: center;
